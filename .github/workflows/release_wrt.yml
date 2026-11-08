@@ -49,6 +49,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     permissions:
       contents: write
+      actions: write
 
     steps:
       - name: Free Disk Space
